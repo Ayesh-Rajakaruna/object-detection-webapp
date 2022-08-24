@@ -21,7 +21,7 @@ def makemodel(file_path, iteration):
                                                                        shuffle=False,
                                                                        batch_size=batch_size)
         class_names = train_ds.class_names
-        if not "Model" in [x[0] for x in os.walk(".")]:
+        if not ".\\Model" in [x[0] for x in os.walk(".")]:
             os.mkdir("Model")
         class_file = open('Model/class_names.txt', 'w')
         for classes in class_names:
