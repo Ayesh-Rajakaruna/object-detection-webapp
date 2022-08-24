@@ -17,7 +17,9 @@ def predict():
     if request.method == 'POST':
         file = request.files['file']
         file_name = file.filename
-        file_path = os.path.join(r'.\static\temporary', "image.jpg")
+        if not "temporary" in [x[0] for x in os.walk(".\static")]:
+            os.mkdir("temporary")
+        file_path = os.path.join(r'.\static\\temporary', "image.jpg")
         if file_name == "":
             massage = "Please choose the file"
             return render_template('error.html', massage=massage)
