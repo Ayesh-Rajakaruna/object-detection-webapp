@@ -1,6 +1,6 @@
 # object-detection-webapp
 
-ython depdency <br>
+python depdency <br>
   Tesserflow<br>
   Flask
   
