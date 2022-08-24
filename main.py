@@ -18,7 +18,7 @@ def predict():
         file = request.files['file']
         file_name = file.filename
         if not "temporary" in [x[0] for x in os.walk(".\static")]:
-            os.mkdir("temporary")
+            os.mkdir(".\static\\temporary")
         file_path = os.path.join(r'.\static\\temporary', "image.jpg")
         if file_name == "":
             massage = "Please choose the file"
@@ -49,4 +49,5 @@ def make_model():
 
 
 if __name__ == "__main__":
+    os.system("start \"\" http://127.0.0.1:5000")
     app.run()

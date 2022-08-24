@@ -1,6 +1,5 @@
 import os
 import tensorflow as tf
-import matplotlib.pyplot as plt
 
 
 def makemodel(file_path, iteration):
