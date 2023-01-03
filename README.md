@@ -19,7 +19,7 @@ This Flask app allows users to create a machine learning model that can classify
 
 1. Clone this repository
 2. Install the required packages: `pip install -r requirements.txt`
-3. Run the app: `python app.py`
+3. Run the app: `python Main.py`
 
 ## Usage
 
@@ -29,8 +29,9 @@ This Flask app allows users to create a machine learning model that can classify
 
 ## Screenshots
 
-![Screenshot of model training interface](https://www.upwork.com/att/download/portfolio/persons/uid/1501979573935886336/profile/projects/files/053d1172-cba9-4815-9dcd-56bd1ed6804a)
+![WhatsApp Image 2023-01-03 at 15 51 20](https://user-images.githubusercontent.com/68496221/210340576-2d78f973-7168-40ea-9201-868701ddb265.jpeg)
+![WhatsApp Image 2023-01-03 at 15 52 05](https://user-images.githubusercontent.com/68496221/210340586-35e7689a-7a76-48d4-aa5c-0ba9dc1a0e27.jpeg)
+![WhatsApp Image 2023-01-03 at 15 51 53](https://user-images.githubusercontent.com/68496221/210340591-3b72c2f6-e05c-4104-8f76-318cf985b64d.jpeg)
+![WhatsApp Image 2023-01-03 at 15 51 41](https://user-images.githubusercontent.com/68496221/210340595-de848360-3dc8-484a-bceb-63a19f6a0af3.jpeg)
+![WhatsApp Image 2023-01-03 at 15 51 31](https://user-images.githubusercontent.com/68496221/210340600-1517b531-741b-4dd6-b4f6-293ba43efa71.jpeg)
 
-![Screenshot of model testing interface](screenshots/test.png)
-
-![Screenshot of image classification interface](screenshots/classify.png)
