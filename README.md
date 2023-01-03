@@ -9,13 +9,12 @@ This Flask app allows users to create a machine learning model that can classify
 - Uploading an image to be classified by the trained model
 
 ## Requirements
-
+```
 - Python 3.x
 - Flask
-- scikit-learn
 - numpy
-- pillow
-
+- pytorch
+```
 ## Installation
 
 1. Clone this repository
