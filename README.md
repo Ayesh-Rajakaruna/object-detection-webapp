@@ -29,7 +29,7 @@ This Flask app allows users to create a machine learning model that can classify
 
 ## Screenshots
 
-![Screenshot of model training interface](screenshots/train.png)
+![Screenshot of model training interface](https://www.upwork.com/att/download/portfolio/persons/uid/1501979573935886336/profile/projects/files/053d1172-cba9-4815-9dcd-56bd1ed6804a)
 
 ![Screenshot of model testing interface](screenshots/test.png)
 
